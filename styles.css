@@ -203,9 +203,6 @@ margin-top: 10px;
   object-fit: cover;
 }
 
-#playlistDetail .header .info {
-  /* Add some styling for the playlist title, description, and other info here */
-}
 
 #playlistDetail .tracklist {
   margin-top: 40px;
@@ -248,12 +245,15 @@ margin-top: 10px;
 }
 
 #browseSection .genreGrid {
+
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  gap: 5px;
+  gap: 13px;
 }
 
 #browseSection .genreCard {
+  height:54px;
   background-color: #282828;
   border-radius: 5px;
   overflow: hidden;

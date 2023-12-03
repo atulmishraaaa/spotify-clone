@@ -258,6 +258,7 @@ span.icon-b3 svg {
   width: 90%;
   padding-bottom: 5rem;
   margin-bottom: 5rem;
+  z-index: 1000;
 }
 
 #playlistGrid .playlist-grid-card {
@@ -311,9 +312,7 @@ span.icon-b3 svg {
 }
 
 
-#playlistDetail .header .info {
-  /* Add some styling for the playlist title, description, and other info here */
-}
+
 
 #playlistDetail .tracklist {
   margin-top: 40px;
